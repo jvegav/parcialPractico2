@@ -1,0 +1,33 @@
+export class Receta {
+    nombre:string;
+    descripcion:string;
+    dificultad:string;
+    duracion:number;
+    ingredientes:string;
+    categoria:string;
+    imagen:string;
+    estrellas:number;
+    cantidadOpiniones:number;
+    autorReceta:string;
+    constructor(nombre:string,
+        descripcion:string,
+        dificultad:string,
+        duracion:number,
+        ingredientes:string,
+        categoria:string,
+        imagen:string,
+        estrellas:number,
+        cantidadOpiniones:number,
+        autorReceta:string){
+            this.autorReceta=autorReceta;
+            this.cantidadOpiniones=cantidadOpiniones;
+            this.descripcion=descripcion;
+            this.dificultad=dificultad;
+            this.duracion=duracion;
+            this.estrellas=estrellas;
+            this.ingredientes=ingredientes;
+            this.imagen=imagen;
+            this.nombre=nombre;
+            this.categoria=categoria;
+        }
+}
